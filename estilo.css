@@ -1,0 +1,281 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">);
+@import url(<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">);
+@import url(<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">);
+
+
+Html, body {
+    margin:0;
+}
+
+.justificado{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+.centralizado{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.tituloh2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 150%;
+    text-align: center;
+}
+.tituloh3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 150%;
+    text-align: center;
+}
+.tituloh4{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 120%;
+    text-align: center;
+}
+.paragrafo{
+    font-size: 100%;
+    text-align:  justify;
+}
+.paragrafoespecial{
+    
+    text-align:  justify;
+    width: 76%;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+
+
+
+header{
+    background-color: #92f7e7;;
+    color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 50px;
+    position: absolute;
+    margin-left: 3%;
+}
+#menu{
+    float: right;
+    margin-top: 0%;
+    list-style: none;
+}
+.cormenu{
+    color: black; 
+    text-decoration: none;
+}
+li{
+    float: left;
+    color: white;
+    padding: 15 20 15 20;
+}
+li:hover{
+    background-color: white;
+    color: black;
+}
+.capa{
+    background: url("img/4208160.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo1{
+    font-family: 'Lato', sans-serif;
+    font-size: 600%;
+    color: black;
+    padding-top: 20%;
+}
+#subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    color: black;
+    padding-left:20%;
+    padding-right: 20%;
+}
+#ação{
+    color: rgb(120, 236, 227);
+    border: 1px rgb(120, 236, 227) solid;
+    padding: 1%; 
+}
+#ação:hover{
+    color: black ;
+    background-color: rgb(120, 236, 227);
+}
+.coluna{
+    float: left;
+    padding:5%;
+    position: relative;
+    width: 40%;
+}
+#desenvolvimento{
+    padding: 5%;
+    text-align: justify;
+}
+.espaço{
+    padding: 0% 2% 0% 2%;
+}
+.botao{
+    background-color: #F8EDEB ;
+    color: black ;
+    padding: 1%;
+    border: 2% #E2CFC4 solid;
+}
+.botao:hover{
+    color: black ;
+    background-color: #A4C3B2 ;
+}
+.fatos{
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.diferente{
+    background-color: #F8EDEB;
+    float: left;
+}
+.margem{
+    padding: 5%;
+}
+.colunadado{
+    float: left;
+    padding:2% 5% 2% 5%;
+    position: relative;
+    width: 15%;  
+}
+.imagens{
+    height: 15%;
+}
+#sobremim{
+    text-align: justify, center;
+    padding: 1%;
+    margin-left: 2%;
+    margin-top: 8%;
+    border: 4px #E2CFC4 solid;
+}
+.rodapé{
+    background: #92f7e7;
+    float: left;
+    width: 100%; 
+}
+.colunarodape{
+    float: left;
+    padding: 3% 3.5% 2% 3.5%;
+    position: relative;
+    width: 15%;
+}
+.img{
+    height: 6%;
+    padding: 2% 2% 15% 2%;
+    margin-left: 100%;  
+}
+.siterodape{
+    color: black;
+}
+
+@media all and (max-width: 768px){
+     
+    #logodiv{
+        text-align: center;
+    }
+    #menu{
+        visibility: hidden;
+    }
+    #titulo1{
+        font-size: 350%;
+        color: black;
+        padding-top: 25%;
+    }
+    #subtitulo{
+        font-size: 150%;
+        color: black;
+        padding-left:20%;
+        padding-right: 20%;
+    }
+    .coluna, .colunarodape{
+        display: block;
+        text-align: center;
+        position: relative;
+        width: 85%;
+    }
+    .colunadado{
+        display: block;
+        text-align: center;
+        position: relative;
+        width: 75%;
+        padding-left: 14%;
+        padding-left: 14%;
+    }
+    .tituloh2{
+        font-size: 120%;
+        text-align: center;
+    }
+    .tituloh3 {
+        font-size: 110%;
+        text-align: center;
+    }
+    .tituloh4{
+        font-size: 100%;
+        text-align: center;
+    }
+    .paragrafo{
+        font-size: 80%;
+        text-align: center, justify;
+    }
+    .tituloh21{
+        font-size: 140%;
+        text-align: center;
+    }
+    .tituloh31 {
+        font-size: 130%;
+        text-align: center;
+    }
+    .tituloh41{
+        font-size: 120%;
+        text-align: center;
+    }
+    .paragrafo1{
+        font-size: 80%;
+        text-align: center;
+        text-align: justify;
+    }
+    .paragrafoespecial{
+        text-align: center;
+        width: 76%;
+        padding-left: 14%;
+        padding-right: 14%;
+    }
+    .imagens{
+        height: 15%;
+    }
+    #sobremim{
+        text-align: justify, center;
+        padding: 1%;
+        margin-left: 7%;
+        margin-top: 8%;
+        border: 4px #E2CFC4 solid;
+        font-size: 80%;
+    }
+    .colunarodape{
+        float: left;
+        padding: 3% 3.5% 2% 3.5%;
+        position: relative;
+        width: 12%;
+    }
+    .img{
+        height: 4%;
+        padding: 2% 2% 15% 2%;
+        margin-left: 100%;  
+    } 
+    .fatos{
+        width: 72%;
+        padding-left: 14%;
+        padding-right: 14%;
+        position: relative;
+    }
+
+
+
+}
